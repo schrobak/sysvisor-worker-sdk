@@ -23,6 +23,5 @@
         "psr-0": {
             "Sysvisor": "src/"
         }
-    },
-    "target-dir": "Sysvisor/Sdk/Worker"
+    }
 }
