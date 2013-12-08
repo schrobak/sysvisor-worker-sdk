@@ -32,3 +32,6 @@ nb-configuration.xml
 build.xml
 build.properties
 
+### SysVisor SDK ###
+vendor/
+phpunit.xml
