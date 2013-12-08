@@ -35,3 +35,4 @@ build.properties
 ### SysVisor SDK ###
 vendor/
 phpunit.xml
+composer.lock
