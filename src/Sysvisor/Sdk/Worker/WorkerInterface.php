@@ -18,9 +18,11 @@ namespace Sysvisor\Sdk\Worker;
  *
  * @author Sławomir Chrobak <slawomir.chrobak@gmail.com>
  * @package Sysvisor\Sdk\Worker
- * @version 0.1.0
+ * @version 0.2.0
  */
 interface WorkerInterface
 {
+    public function getName();
 
-} 
+    public function execute();
+}

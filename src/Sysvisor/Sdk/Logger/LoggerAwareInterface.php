@@ -9,20 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Sysvisor\Sdk\Worker;
-
-use Psr\Log\LoggerAwareInterface;
+namespace Sysvisor\Sdk\Logger;
 
 /**
- * SysVisor Abstract Worker
- *
- * Extend this class to use pre-defined implementation
+ * SysVisor Logger Aware Interface
  *
  * @author Sławomir Chrobak <slawomir.chrobak@gmail.com>
- * @package Sysvisor\Sdk\Worker
- * @version 0.1.0
+ * @package Sysvisor\Sdk\Logger
+ * @version 0.2.0
  */
-abstract class AbstractWorker implements WorkerInterface, LoggerAwareInterface
+interface LoggerAwareInterface extends \Psr\Log\LoggerAwareInterface
 {
-
-}
+    public function getLogHandler();
+} 
