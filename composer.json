@@ -1,0 +1,24 @@
+{
+    "name": "sysvisor/worker-sdk",
+    "description": "SDK for developing SysVisor workers.",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["sysvisor", "sdk"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sławomir Chrobak",
+            "email": "slawomir.chrobak@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sysvisor\\Sdk\\Worker": "src/"
+        }
+    },
+    "target-dir": "Sysvisor/Sdk/Worker"
+}
